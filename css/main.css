@@ -3,6 +3,13 @@ body {
     color: white;
 }
 .container {
-    width: 75%;
+    width: 50%;
     margin: auto;
+    padding-top: 5%;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
 }
