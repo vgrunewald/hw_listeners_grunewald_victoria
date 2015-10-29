@@ -10,3 +10,8 @@ heading.addEventListener("dblclick", function() {
     this.innerHTML="Go Seahawks!";
 });
 
+//#3: Event listener listens for mouseover on image. Upon mouseover, listener replaces image with new image.
+var image = document.getElementById("seattle");
+image.addEventListener("mouseover", function() {
+    this.src="img/seahawks.jpg";
+});
