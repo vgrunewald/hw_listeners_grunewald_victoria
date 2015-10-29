@@ -17,12 +17,12 @@ textarea {
     line-height: 1.4em;
 }
 label,
-.submit-button {
+#submit-button {
     color: #ff358b;
     font-size: 1.2em;
     text-transform: uppercase;
 }
-.submit-button {
+#submit-button {
     display: block;
     width: 65%;
     margin: auto;
@@ -31,7 +31,7 @@ label,
     border: 2px solid #fff;
     border-radius: 5px 5px 5px 5px;
 }
-.submit-button:hover {
+#submit-button:hover {
     background-color: #ff358b;
     color: #fff;
     border: 1px solid #000;
