@@ -3,6 +3,7 @@ var background = document.body;
 background.addEventListener("click", function(){
     background.style.backgroundColor = "#33f200";
 });
+//Event listener listens for a click on the container over top the background and prevents background color change from bubbling up DOM to body.
 document.getElementById("container").addEventListener("click", function(event){
     event.stopPropagation();
 });
@@ -17,4 +18,8 @@ heading.addEventListener("dblclick", function(){
 var image = document.getElementById("seattle");
 image.addEventListener("mouseover", function(){
     this.src="img/seahawks.jpg";
+});
+//Event listener listens for mouse outside of image after rollover to revert image back to its original form.
+image.addEventListener("mouseout", function(){
+    this.src="img/seattle.jpg";
 });
